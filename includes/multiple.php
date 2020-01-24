@@ -45,9 +45,9 @@
     </label>
 </div>
 <aside>
- <h3></h3>
- <img src="images/fall.jpg" class="tablet" alt="fall" />
  <p>My office hours are 8am to 4pm Sunday to Thursday. I am based in Seattle, Washington.</p>
+ <img src="images/fall.jpg" class="desktop" alt="fall" />
+ 
 </aside>
 <div>	
     <fieldset>

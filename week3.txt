@@ -1,0 +1,23 @@
+WEB120 W20 - Thursday Class/Webinar 6pm-8pm Week 3, 01/12
+
+Please have ready (open in your editor) your web120 portal website files (index.php, header.php and footer.php) ready to work on as we'll cover the PHP Portal Config assignment: [Assignment] PHP Portal Config 
+
+In this assignment, we'll continue where we left off adding PHP include files to our portals.
+We'll add a new file, portal-config.php which will store PHP code and functions that allow us to provide unique data in the <title> tag and other locations rendered problematic when we created single files (header.php and footer.php) to contain the code for the top and bottom of our pages.
+Bill will be on campus helping and I’m online in Zoom helping. Please use our Zoom Chat tool to ask questions so we make sure to help everyone.
+Developer tools we use regularly for class work:
+
+1) Chrome (Browser)
+  a) https://canvas.seattlecolleges.edu (go to our class)
+  b) https://docs.google.com (go to your class notes)
+  c) https://w3schools.com (used on occasion)
+  d) https://github.com (go to your account)
+  e) https://www.linkedin.com/learning/me?u=2359778
+
+2) FileZilla (FTP application)
+  a) Go to your web120 folder (keep your work organized)
+
+3) Brackets (HTML Editor)
+  a) Open your web120 folder (create and edit your work)
+
+* You can use other FTP and HTML editors if you’d like for WEB120 but we won’t be able to support your use of something other than what we’re requiring as we aren’t teaching all possible applications available to developers.  I do provide/recommend a lot of “starter” code for you to “repurpose” — However, DO NOT use things like Dreamweaver or Bootstrap for this class. You need to write your own code when directed in WEB120.

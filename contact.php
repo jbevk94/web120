@@ -13,6 +13,7 @@
 
 <body>
 	<header role="banner">
+  <h1><a href="index.php"><i class="logo fa fa-pencil"></i> Beverly's SCC WEB120 Portal</a></h1>
 		<h2 class="masthead">Let's Connect
     </h2>
 		<nav>

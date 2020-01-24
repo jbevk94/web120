@@ -61,7 +61,7 @@ footer {
   }
 
   img.desktop {
-    float: left;
+    padding: 10px;
     width: 50%;
     display: inline-block;
   }
@@ -69,6 +69,11 @@ footer {
   img.tablet,
   img.phone {
     display: none;
+  }
+
+  .hobbies{
+      padding: 15px;
+      float: left;
   }
 
   /* Change background color of navigation on selected page */
@@ -118,4 +123,12 @@ footer {
   img.desktop {
     display: none;
   }
+}
+
+/* font awesome icon styles */
+i.logo {
+  color:darkred; /* a less boring color */
+  text-shadow:1px 1px #ccc; /* gives the icon a little depth */
+  font-size:1.25em; /* font awesome icons are text, so make it a bit bigger */
+  margin-left:1%; /* this keeps the icon from being squeeezed to the left */
 }

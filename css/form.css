@@ -18,7 +18,7 @@ input:required {
 }
 
 input:optional, textarea:optional {
-   background-color:rgb(41, 137, 150);
+   background-color:rgb(255, 255, 255);
    border:1px solid rgb(41, 137, 150);
 }
 
@@ -41,5 +41,14 @@ border-left: 1px solid rgb(41, 137, 150);
 border-right: 1px solid rgb(41, 137, 150);
 }
 
+@media all and (min-width:501px){
+  div.wrapper form{
+      margin-left:22.8px;
+
+  }
+}
+
+
 /* end reCAPTCHA styles */
+
 
