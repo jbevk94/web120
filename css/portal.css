@@ -1,10 +1,10 @@
 html {
-  background-color: rgb(245, 241, 241);
+  background-color: rgb(240, 244, 247);
 }
 
 main.wrapper {
-  background-color: #fff;
-  overflow: auto;
+  background-color: rgb(240, 244, 247);
+  /* overflow: auto; */
 }
 
 h1 > a {
@@ -13,7 +13,7 @@ h1 > a {
 }
 
 .logo {
-  color: #001b47;
+  color: #97d6e7;
   margin-left: 1%;
   text-shadow: 1px 1px #ccc;
   font-size: 1.25em;
@@ -37,43 +37,40 @@ div.embed-container iframe {
   height: 100%;
 }
 
-footer {
+/* footer {
   clear: both;
-}
+} */
 
 /* START RESPONSIVE STYLES */
 
 /* DESKTOP */
 @media all and (min-width: 1400px) {
   main.wrapper {
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
   }
 
   section {
-    width: 65%;
+    padding: 10px;
+    width: 40%;
     float: left;
   }
 
   aside {
-    width: 34%;
+    padding: 10px;
+    width: 40%;
     float: right;
   }
 
   img.desktop {
     padding: 10px;
-    width: 50%;
+    width: 60%;
     display: inline-block;
   }
 
   img.tablet,
   img.phone {
     display: none;
-  }
-
-  .hobbies{
-      padding: 15px;
-      float: left;
   }
 
   /* Change background color of navigation on selected page */
@@ -127,8 +124,8 @@ footer {
 
 /* font awesome icon styles */
 i.logo {
-  color:darkred; /* a less boring color */
-  text-shadow:1px 1px #ccc; /* gives the icon a little depth */
-  font-size:1.25em; /* font awesome icons are text, so make it a bit bigger */
-  margin-left:1%; /* this keeps the icon from being squeeezed to the left */
+  color: #97d6e7; /* a less boring color */
+  text-shadow: 1px 1px rgb(204, 204, 204); /* gives the icon a little depth */
+  font-size: 1.25em; /* font awesome icons are text, so make it a bit bigger */
+  margin-left: 1%; /* this keeps the icon from being squeeezed to the left */
 }

@@ -44,11 +44,7 @@
         </select>
     </label>
 </div>
-<aside>
- <p>My office hours are 8am to 4pm Sunday to Thursday. I am based in Seattle, Washington.</p>
- <img src="images/fall.jpg" class="desktop" alt="fall" />
- 
-</aside>
+
 <div>	
     <fieldset>
         <legend>What Services Are You Interested In?</legend>

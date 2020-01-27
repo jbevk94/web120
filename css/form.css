@@ -25,7 +25,7 @@ input:optional, textarea:optional {
 input[type="submit"], input[type="button"] {
 background-color: rgb(255, 255, 255);
 border-radius: 4px;
-border: solid 1px rgb(255, 255, 255);
+border: solid 1px rgb(41, 137, 150);
 padding: 0.3em 0.5em;
 }
 

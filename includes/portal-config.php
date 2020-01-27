@@ -29,13 +29,20 @@ switch(THIS_PAGE){
     case 'aia.php':
         $title = "Beverly's Final Project Audience, Issues and Approach Research";
         $logo = "fa-universal-access";
-        $logo_color = ' style="color:#00f"';
+        $logo_color = ' style="color:#97D6E7;"';
         break;
 
+    case 'flowchart.php':
+         $title = "Beverly's Flowchart Page";
+         $logo = 'fa-pencil-square-o';
+         $logo_color = ' style="color:#97D6E7;"';
+         $PageID = 'Flowchart';
+        break;
         
     case 'contactme.php':
         $title = "Beverly's WEB120 Contact Page";
         $logo = 'fa-pencil-square-o';
+        $logo_color = ' style="color:#97D6E7;"';
         $PageID = 'Contact Beverly';
     break;
 
