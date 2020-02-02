@@ -1,7 +1,6 @@
 Web 120
 
-Seattle Central College Web Authoring 2
-<hr>
+Seattle Central College Web Authoring 2 Assignments
 
 
 
