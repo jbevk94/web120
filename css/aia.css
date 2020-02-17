@@ -1,0 +1,38 @@
+table {
+    width: 85%;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.tab1{
+    margin-bottom: 20px; 
+    margin-top: 20px; 
+    padding: 20px;
+}
+
+.tab1, .tab2{
+    border: 1px solid blue;
+    text-align: left;
+    
+}
+
+.tab2 th{
+    background-color: rgb(160, 199, 236);
+    padding: 8px;
+}
+
+.tab2 td{
+
+    padding: 20px;
+}
+
+.needs {
+    padding-bottom: 40px;
+}
+
+.approach, li {
+    padding: 5px 22px;
+}
+

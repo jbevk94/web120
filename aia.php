@@ -1,4 +1,4 @@
-<!-- <?php include "includes/header.php";?> -->
+<?php include "includes/header.php";?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>AIA</title>
+    <link rel="stylesheet" href="css/aia.css">
   </head>
   <body>
-    <table>
+    <!-- table one -->
+    <table class="tab1">
       <tr>
         <th>Client's Name</th>
         <td>Olga Sagan</td>
@@ -32,15 +34,15 @@
         </td>
       </tr>
     </table>
-
-    <table style="width:50%">
+<!-- table 2 -->
+    <table class="tab2">
       <tr>
-        <th>Audiences</th>
-        <th>Issues, Concerns, Needs</th>
-        <th>Approach</th>
+        <th class='col1'>Audiences</th>
+        <th class='col2'>Issues, Concerns, Needs</th>
+        <th class='col3'>Approach</th>
       </tr>
       <tr>
-        <td>
+        <td class='needs'>
           People working in office buildings in the vacinity looking to cater to
           their office. Someone in management. Age range of mid 20s to mid 50s.
           They need something tasty for a potluck, long meeting, or as a treat
@@ -52,19 +54,19 @@
         <td>
           <ul>
             <li>
-              ease of use
+              Ease of use
             </li>
-            <li>deals on large orders</li>
+            <li>D on large orders</li>
           </ul>
         </td>
-        <td>
+        <td class = "approach">
           To appeal to business offices I recommend offering a discount for
           large orders and promote the ability to order ahead online.
         </td>
       </tr>
 
       <tr>
-        <td>
+        <td class='needs'>
           Construction workers with jobs downtown looking for something quick
           and inexpensive to eat while they're on their short breaks.The
           majority of them are men doing manual labor. They have basic computer
@@ -74,17 +76,18 @@
         <td>
           <ul>
             <li>Straight to the point information</li>
-            <li></li>
+            <li>Quick service because their breaks are short</li>
+            <li>Easily accessible</li>
           </ul>
         </td>
-        <td>
+        <td class = "approach">
           To appeal to construction workers I recommend promoting the store
           specials as well as put emphasis on the quck service of a hot easy to
           eat meal.
         </td>
       </tr>
       <tr>
-        <td>
+        <td class='needs'>
           Tourists who are looking to try something different while they are on
           vacation. They've probably have no idea what a piroshky is. Roughly around mid 20s to late 30s. They have
           a good grasp on technology and mostly navigate websites on their
@@ -92,12 +95,12 @@
         </td>
         <td>
           <ul>
-            <li>Different options that what they can't get at home</li>
+            <li>Different options than what they can't get at home</li>
             <li>Appealing looking food to take pictures of for social media</li>
             <li>Ability to leave a review so other people can know what they think about it</li>
           </ul>
         </td>
-        <td>
+        <td class = "approach">
           To appeal to tourists I recommend having a section that displays
           positive reviews because most people research a business before
           spending money. Also,beautiful pictures with descriptions of each
@@ -106,7 +109,8 @@
           Market and the Sky View Observatory.
         </td>
       </tr>
-    </table>
+
   </body>
 </html>
-<!-- <?php include "includes/footer.php";?> -->
+
+</table><?php include "includes/footer.php";?>

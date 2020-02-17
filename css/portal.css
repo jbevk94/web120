@@ -73,6 +73,13 @@ div.embed-container iframe {
     display: none;
   }
 
+ .iframe{
+ height:1700px; 
+ width:1200px ;
+ border:none;
+
+} 
+
   /* Change background color of navigation on selected page */
   ul.topnav li a.selected {
     background-color: #388fc5;
@@ -121,6 +128,13 @@ div.embed-container iframe {
     display: none;
   }
 }
+
+/* #frame{
+  height:'900'; 
+  width:'300' ;
+  border:none;
+ 
+ }  */
 
 /* font awesome icon styles */
 i.logo {

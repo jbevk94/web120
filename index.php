@@ -2,11 +2,11 @@
 <!-- END Header Includes here -->
 <!-- START LEFT COL -->
 
-<section>
+<section class="home">
 <h3 class="pageID">Creating responsive websites and mobile apps</h3>
  <img src="images/laundry.jpeg" class="tablet" alt="laundry soap making supplies" />
  <img src="images/me.jpg" class="phone" alt="Beverly" />
- <p>I was born in Indiana and moved the pacific northwest when I was 18. Currently, I am studying programming at Seattle Central. Once complete I plan on working as a front end web developer. Additionally, I've also completed Front End Web and Mobile Development courses at Nucamp Bootcamp.</p>
+ <p class='home'>I was born in Indiana and moved the pacific northwest when I was 18. Currently, I am studying programming at Seattle Central. Once complete I plan on working as a front end web developer. Additionally, I've also completed Front End Web and Mobile Development courses at Nucamp Bootcamp.</p>
 
 </section>
 <!-- END LEFT COL -->

@@ -1,4 +1,4 @@
-<?php include "portal-config.php"?>
+
 
 <!-- START Footer -->
 <footer>
@@ -21,3 +21,4 @@ function myFunction() {
     </body>
     </html>
 
+    <?php include "portal-config.php"?>
