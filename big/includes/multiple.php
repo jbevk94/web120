@@ -20,64 +20,104 @@
 
 <!-- START HTML FORM -->
 <form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
+
+<h3 class = "headers">About You</h3>
 <div>
     <label>
-        Name:<br /><input type="text" name="Name" required="required" placeholder="Full Name (required)" title="Name is required" tabindex="10" size="44" autofocus />
+        Name:<br /><input type="text" name="Name" required="required" placeholder="Full Name (required)" title="Name is required" tabindex="10" size="44" autofocus /><br />
     </label>
-</div>
-<div>	
+    <!-- Add padding -->
+
     <label>
-        Email:<br /><input type="email" name="Email" required="required" placeholder="Email (required)" title="A valid email is required" tabindex="20" size="44" />
+        Email:<br /><input type="email" name="Email" required="required" placeholder="Email (required)" title="A valid email is required" tabindex="20" size="44" /><br /> 
     </label>
-</div>
-<!-- below change the HTML to your form elements - only 'Name' & 'Email' (above) are significant -->
-<div>	
+    <!-- Add padding -->
     <label>
-        How Did You Hear About Us?:<br />
-        <select name="How_Did_You_Hear_About_Us?" required="required" title="How You Heard is required" tabindex="30">
-            <option value="">Choose One</option>
-            <option value="Phone">Phone</option>
-            <option value="Web">Web</option>
-            <option value="Media">Social Media</option>
-            <option value="A Friend">A Friend</option>
-            <option value="Other">Other</option>
-        </select>
+        Phone:<br /><input type="phone" name="Phone"  placeholder="Email (required)" tabindex="20" size="22" /><br /> 
     </label>
+    <label>
+        Company Name:<br />
+        <textarea name="Company" cols="40" rows="6"  placeholder="Company Name"></textarea><br /> 
+    </label>
+    <label>
+        Business Social Media:<br />
+        <textarea name="Media" cols="40" rows="6"  placeholder="Social Media Handles"></textarea><br /> 
+    </label>
+    <label>
+        Your Website:<br /><input type="text" name="Website"  placeholder="" tabindex="20" size="40" /><br /> 
+    </label>
+    
+</div>
+<h3 class = "headers">Project Details</h3>
+<div>	
+    <label>What does your company do?</label><br /><textarea name="Comments" cols="40" rows="8" placeholder="Please include a brief description of what services or products your company provides" tabindex="60"></textarea><br />
+
 </div>
 
-<div>	
-    <fieldset>
-        <legend>What Services Are You Interested In?</legend>
-        <input type="checkbox" name="Interested_In[]" value="New Website" tabindex="40" /> New Website <br />
-        <input type="checkbox" name="Interested_In[]" value="Website Redesign" /> Website Redesign <br />
-        <input type="checkbox" name="Interested_In[]" value="Special Application" /> Mobile Application <br />
-        <input type="checkbox" name="Interested_In[]" value="Other" /> Other <br />
-    </fieldset>
-</div>
-    <div>
-    <label>
-        Budget:<br /><input type="text" name="Budget" placeholder="Budget" title="Budget" tabindex="10" size="22" autofocus />
-    </label>
-    </div>
-   
-    <div>	
-    <fieldset>
-        <legend>Would you like to join my mailing list?</legend>
-        <input type="radio" name="Join_Mailing_List?" value="Yes" 
-        required="required" title="Mailing list is required" tabindex="50"  
-        /> Yes <br />
-        <input type="radio" name="Join_Mailing_List?" value="No" /> No <br />
-    </fieldset>
-</div>
-<div>	
-    <label>
-        Additional Details:<br /><textarea name="Comments" cols="36" rows="4" placeholder="Please include a brief description of what you would like so I can better assist you." tabindex="60"></textarea>
-    </label>
-</div>	
-<div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div>
+    <label>Who is your target audience?</label> <br />
+        <textarea name="Comments" cols="40" rows="8" placeholder="What customers do you currently reach and who would you like to serve?" tabindex="60"></textarea>
+    
 <div>
-    <input type="submit" value="submit" />
-</div>
-</form>
-<!-- END HTML FORM -->
 
+<label>Type of Project</label>
+
+<select id="project">
+  <option value="new-web">Brand New Website</option>
+  <option value="new-app">Brand New App</option>
+  <option value="web-redesign">Website Redesign</option>
+  <option value="app-redesign">App Redesign</option>
+  <option value="new-both-redesign">New App and Website</option>
+  <option value="both-redesign">Redesign for App and Website</option>
+</select>
+
+</div>
+
+<div>
+    <fieldset>
+        <legend>What are your main goals for this website?</legend>
+        <input type="checkbox" name="Goals[]" value="Money" tabindex="40" /> Monetization <br />
+        <input type="checkbox" name="Goals[]" value="Brand" /> Brand Building <br />
+        <input type="checkbox" name="Goals[]" value="Special Audience" /> Reach New Audience <br />
+        <input type="checkbox" name="Goals[]" value="Customer" /> Customer Service <br />
+        <input type="checkbox" name="Goals[]" value="Marketing" /> Marketing <br />
+        <input type="checkbox" name="Goals[]" value="Other" /> Other <br />
+    </fieldset>
+        <textarea name="Comments" cols="40" rows="8" placeholder="" tabindex="60"></textarea>
+    
+</div>
+<div>
+<label>Project Deadline</label>
+
+<select class='deadline'>
+  <option value=""></option>
+  <option value="asap">As Soon As Possible</option>
+  <option value="1">One Month</option>
+  <option value="2">Two Months</option>
+  <option value="3">Three Months or More</option>
+  <option value="tbd">To Be Determined</option>
+</select>
+</div>
+
+<label for="budget">Budget</label>
+<textarea name="budget" cols="30" rows="10"></textarea>
+
+<h3 class = "headers">Development</h3>
+<div>
+    <label> What pages do you need?</label><br />
+        <textarea name="Requirements" cols="40" rows="8" placeholder="What pages would you like? (e.g. About Page/ Blog Page/ Gallary Page)" tabindex="60"></textarea><br />
+        <label> What features do you need?</label><br />
+        <textarea name="Requirements" cols="40" rows="8" placeholder="What features would you like? (e.g. Chat feature/Search Bar/Contact Form)" tabindex="60"></textarea><br />
+</div>
+<h3 class = "headers">Design</h3>
+<div>
+<label for="">Do you have brand specifications?</label><br />
+    <textarea name="brand"cols="30" rows="10" placeholder="(e.g. Logo, colors, fonts"></textarea>
+
+    <label for="">List 5 other websites that you like</label><br />
+    <textarea name="Competitors"cols="30" rows="10" placeholder="Please list five websites with a brief explanation as to why they appeal to you."></textarea>
+
+    <label for="">Do you have content complete?</label><br />
+    <textarea name="content"cols="30" rows="10" placeholder="(e.g. Text for each page, images"></textarea>
+
+
+</div>
