@@ -14,8 +14,6 @@
 <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
 <script src="js/script.js"></script>
  
-
-
 </head>
 <body>
 <!-- START WRAPPER -->
@@ -25,7 +23,7 @@
   <nav id='cssmenu'>
     <ul>
     <li><a class="selected" href="index.php"><span><i class="fa fa-fw fa-home"></i>Welcome</a></li>
-<li><a href="big/index.php">Big</a></li>
+<!-- <li><a href="big/index.php">Big</a></li> -->
 <li><a href="flexbox.php"><span><i class="fa fa-fw fa-cube"></i> Flexbox</span></a></li>
 <li><a href="galleries.php"><span><i class="fa fa-fw fa-camera-retro"></i> Galleries</span></a></li>
 <li><a href="aia.php">AIA</a></li>

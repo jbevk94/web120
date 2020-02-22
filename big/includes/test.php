@@ -128,7 +128,7 @@
          *
          */
 
-        include 'includes/contact_include.php'; #site keys & code here
+        include 'includes/index_include.php'; #site keys & code here
     
         $toAddress = "Jbevk94@gmail.com";  //place your/your client's email address here
         $toName = "Olga"; //place your client's name here
