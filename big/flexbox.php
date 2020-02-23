@@ -19,7 +19,8 @@ There are many advantages to using flexbox. It’s supported by all major browse
 <p>Archibald, Jake. “Don't Use Flexbox for Overall Page Layout.” JakeArchibald.com, Feb. 2014, jakearchibald.com/2014/dont-use-flexbox-for-page-layout/. </p>
 
 <p>
-“Basic Concepts of Flexbox.” MDN Web Docs, developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox.
+“Basic Concepts of Flexbox.” 
+MDN Web Docs, developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox.
 </p>
 <p>
 Caldwell, Alex. “When to Use Flexbox.” The Brolik Blog, 20 Apr. 2016, brolik.com/blog/when-to-use-flexbox/.

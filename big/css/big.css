@@ -7,8 +7,8 @@
 
 html,
 body {
-  background-color: #a8dde6;
-  color: #e7e8ec;
+  background-color: #aaddd6;
+  color: #ffffff;
 }
 
 a:visited {
@@ -84,9 +84,12 @@ div.embed-container.agenda-view {
 /* END Global Embed Responsively Rules! */
 
 footer {
+  color: rgb(100, 100, 100);
   text-align: center;
   text-transform: uppercase;
   clear: both;
+  background-color: #aaddd6;
+
 }
 
 footer p {
@@ -94,12 +97,12 @@ footer p {
 }
 
 footer a {
-  color: red;
+  color: rgb(100, 100, 100);
   text-decoration: none;
 }
 
 footer a:hover {
-  color: white;
+  color: #626464;
   background-color: black;
 }
 

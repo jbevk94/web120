@@ -4,10 +4,10 @@
 </section>
     <aside>
         <h3>Seattle Central College</h3>
-        <p>Mailing Address:
-1701 Broadway, BE1105
-Seattle, WA 98122
-Phone:(206) 934-3800</p>
+        <p>Mailing Address:<br />
+1701 Broadway, BE1105<br />
+Seattle, WA 98122<br />
+Phone:<a href="tel:206-934-3800">206-934-3800</p>
 </aside>
 <!-- End right col -->
 
