@@ -18,7 +18,8 @@ There are limitless possibilities when it comes to styling your gallery. You’r
 <h2>Citations</h2>
 <p>
 Cousins, Carrie. “7 Tips for Better Responsive Photo Galleries.” Design Shack, Design Shack, 31 Aug. 2016, designshack.net/articles/layouts/photo-gallery-tips/.
-
+</p>
+<p>
 Leonov, Ievgen. “5 Ways to Use a Photo Gallery For Your Website.” The Blog, www.cincopa.com/blog/5-ways-to-use-a-photo-gallery-for-website/.
 </p>
 </aside>

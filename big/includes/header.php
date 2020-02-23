@@ -22,11 +22,15 @@
   <h1><i class="logo fa <?=$logo?> ">Beverly James <a href="index.php"></i> Web Dev Examples</a></h1>
   <nav id='cssmenu'>
     <ul>
-    <li><a class="selected" href="index.php"><span><i class="fa fa-fw fa-home"></i>Welcome</a></li>
+  
+    <li><a class="selected" href="../../web120/index.php"><span><i class="fa fa-fw fa-home"></i>Welcome</a></li>
 <!-- <li><a href="big/index.php">Big</a></li> -->
+
 <li><a href="flexbox.php"><span><i class="fa fa-fw fa-cube"></i> Flexbox</span></a></li>
+
 <li><a href="galleries.php"><span><i class="fa fa-fw fa-camera-retro"></i> Galleries</span></a></li>
-<li><a href="aia.php">AIA</a></li>
+<!-- <li><a href="aia.php">AIA</a><i class="fas fa-users"></i></li> -->
+
 <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i> Google</span></a>
         <ul>
            <li><a href="calendar.php"><span><i class="fa fa-fw fa-calendar"></i> Calendar</span></a></li>
@@ -35,11 +39,14 @@
         </ul>
      </li>
      <li><a href="shoppingcarts.php"><span><i class="fa fa-fw fa-shopping-basket"></i> Shopping Carts</span></a></li>
+     
      <li><a href="siteapp.php"><span><i class="fa fa-fw fa-html5"></i> Site vs App</span></a></li>
-
-<li><a href="flowchart.php">Flowchart</a></li>
-<li><a href="fp/index.php">Final Project</a></li>
-<li><a href="contactme.php">Contact Beverly</a></li>
+     
+     <li><a href="webcam.php"><span><i class="fas fa-camera-retro"></i> Webcam</span></a></li>
+     
+<!-- <li><a href="flowchart.php">Flowchart</a></li> -->
+<!-- <li><a href="fp/index.php"><span><i class="fas fa-laptop-code"></i>Final Project</span></a></li> -->
+<!-- <li><a href="contactme.php"><span><i class="fas fa-address-book"></i>Contact Beverly</span></a></li> -->
       
     </ul>
   </nav>

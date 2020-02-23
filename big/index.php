@@ -4,7 +4,7 @@
 <!-- START LEFT COL -->
 
 
-</section>
+
 <!-- END LEFT COL -->
 <?php
         /*
@@ -22,12 +22,18 @@
 
         // echo loadContact('simple.php');#demonstrates a simple contact form
         echo loadContact('multiple.php');#demonstrates multiple form elements
-	?>
+    ?>
+    </section>
 <!-- START RIGHT COL -->
 <aside>
 <h3>Basic Website Design Cycle </h3>
-</p>
+<p>Here are 3 tools I use to create websites.</p>
+<a href="https://www.justinmind.com/blog/website-wireframe-design-guide/">Wireframes - </a> <p> This is helpful in the design process because it helps define the website's layout. </p>
  
+<a href="https://www.lucidchart.com/pages/templates/flowchart/website-flowchart-template">Flowcharts -</a> <p> This is increadibly helpful when it comes to creating the structure of a website.</p>
+
+<a href="https://wpamelia.com/website-design-questionnaire/">Client Questionnaire - </a> <p> This is probably my favorite tool because it allows me to personalize the website to ensure my client's happiness.</p>
+
 </aside>
 <!-- END RIGHT COL -->
 

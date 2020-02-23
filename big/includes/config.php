@@ -94,6 +94,13 @@ case 'siteapp.php':
         $logo_color = ' style="color:#97D6E7;"';
         $PageID = 'Google Map';
     break;
+    //change icons       
+    case 'webcam.php':
+        $title = "Galleries and Sliders";
+        $logo = 'fa-pencil-square-o';
+        $logo_color = ' style="color:#97D6E7;"';
+        $PageID = 'Galleries and Sliders';
+    break;
 
     default:
         $title = THIS_PAGE;

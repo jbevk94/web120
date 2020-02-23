@@ -22,9 +22,11 @@ There are many pros and cons when it comes to deciding which one is better and I
 <h2>Citations</h2>
 <p>
 Gordon, Kyle. “Topic: Mobile Internet Usage Worldwide.” Www.statista.com, 11 Sept. 2019, www.statista.com/topics/779/mobile-internet/.
-
+</p>
+<p>
 Kris. “The Pros and Cons of Mobile Apps vs. Responsive Web Design.” Smashstack, 5 Jan. 2017, www.smashstack.com/articles/the-pros-and-cons-of-mobile-apps-vs-responsive-web-design/.
-
+</p>
+<p>
 “Responsive Website vs Mobile App: Comparison.” Thinkmobiles, thinkmobiles.com/blog/responsive-website-vs-mobile-app/.
 
 </p>

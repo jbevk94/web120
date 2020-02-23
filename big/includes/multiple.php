@@ -29,11 +29,11 @@
     <!-- Add padding -->
 
     <label>
-        Email:<br /><input type="email" name="Email" required="required" placeholder="Email (required)" title="A valid email is required" tabindex="20" size="44" /><br /> 
-    </label>
+        Email:</label><br /><input type="email" name="Email" required="required" placeholder="Email (required)" title="A valid email is required" tabindex="20" size="44" /><br /> 
+    
     <!-- Add padding -->
     <label>
-        Phone:<br /><input type="phone" name="Phone"  placeholder="Email (required)" tabindex="20" size="22" /><br /> 
+        Phone:<br /><input type="phone" name="Phone"  placeholder="Phone" tabindex="20" size="22" /><br /> 
     </label>
     <label>
         Company Name:<br />
@@ -50,7 +50,7 @@
 </div>
 <h3 class = "headers">Project Details</h3>
 <div>	
-    <label>What does your company do?</label><br /><textarea name="Comments" cols="40" rows="8" placeholder="Please include a brief description of what services or products your company provides" tabindex="60"></textarea><br />
+    <label>What does your company do?</label><br /><textarea name="Comments" cols="40" rows="8" placeholder="Please include a brief description of what services or products your company provides" tabindex="60"></textarea>
 
 </div>
 
@@ -82,7 +82,7 @@
         <input type="checkbox" name="Goals[]" value="Marketing" /> Marketing <br />
         <input type="checkbox" name="Goals[]" value="Other" /> Other <br />
     </fieldset>
-        <textarea name="Comments" cols="40" rows="8" placeholder="" tabindex="60"></textarea>
+    
     
 </div>
 <div>
@@ -98,8 +98,8 @@
 </select>
 </div>
 
-<label for="budget">Budget</label>
-<textarea name="budget" cols="30" rows="10"></textarea>
+<label for="budget">Budget</label> <br />
+<textarea name="budget" cols="25" rows="2"></textarea>
 
 <h3 class = "headers">Development</h3>
 <div>
@@ -111,13 +111,18 @@
 <h3 class = "headers">Design</h3>
 <div>
 <label for="">Do you have brand specifications?</label><br />
-    <textarea name="brand"cols="30" rows="10" placeholder="(e.g. Logo, colors, fonts"></textarea>
+    <textarea name="brand"cols="30" rows="10" placeholder="(e.g. Logo, colors, fonts"></textarea> <br />
 
     <label for="">List 5 other websites that you like</label><br />
-    <textarea name="Competitors"cols="30" rows="10" placeholder="Please list five websites with a brief explanation as to why they appeal to you."></textarea>
+    <textarea name="Competitors"cols="30" rows="10" placeholder="Please list five websites with a brief explanation as to why they appeal to you."></textarea><br />
 
     <label for="">Do you have content complete?</label><br />
-    <textarea name="content"cols="30" rows="10" placeholder="(e.g. Text for each page, images"></textarea>
-
+    <textarea name="content"cols="30" rows="5" placeholder="(e.g. Text for each page, images"></textarea>
 
 </div>
+
+<div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div>
+<div>
+    <input type="submit" value="submit" />
+</div>
+</form>
