@@ -37,11 +37,11 @@
     </label>
     <label>
         Company Name:<br />
-        <textarea name="Company" cols="40" rows="6"  placeholder="Company Name"></textarea><br /> 
+        <textarea name="Company" cols="40" rows="1"  placeholder="Company Name"></textarea><br /> 
     </label>
     <label>
         Business Social Media:<br />
-        <textarea name="Media" cols="40" rows="6"  placeholder="Social Media Handles"></textarea><br /> 
+        <textarea name="Media" cols="40" rows="5"  placeholder="Social Media Handles"></textarea><br /> 
     </label>
     <label>
         Your Website:<br /><input type="text" name="Website"  placeholder="" tabindex="20" size="40" /><br /> 
@@ -50,12 +50,12 @@
 </div>
 <h3 class = "headers">Project Details</h3>
 <div>	
-    <label>What does your company do?</label><br /><textarea name="Comments" cols="40" rows="8" placeholder="Please include a brief description of what services or products your company provides" tabindex="60"></textarea>
+    <label>What does your company do?</label><br /><textarea name="Comments" cols="50" rows="8" placeholder="Please include a brief description of what services or products your company provides" tabindex="60"></textarea>
 
 </div>
-
+<div>
     <label>Who is your target audience?</label> <br />
-        <textarea name="Comments" cols="40" rows="8" placeholder="What customers do you currently reach and who would you like to serve?" tabindex="60"></textarea>
+        <textarea name="Comments" cols="50" rows="8" placeholder="What customers do you currently reach and who would you like to serve?" tabindex="60"></textarea>
     
 <div>
 
@@ -83,7 +83,7 @@
         <input type="checkbox" name="Goals[]" value="Other" /> Other <br />
     </fieldset>
     
-    
+    <br />
 </div>
 <div>
 <label>Project Deadline</label>
@@ -97,30 +97,30 @@
   <option value="tbd">To Be Determined</option>
 </select>
 </div>
-
+<br />
 <label for="budget">Budget</label> <br />
 <textarea name="budget" cols="25" rows="2"></textarea>
 
 <h3 class = "headers">Development</h3>
 <div>
     <label> What pages do you need?</label><br />
-        <textarea name="Requirements" cols="40" rows="8" placeholder="What pages would you like? (e.g. About Page/ Blog Page/ Gallary Page)" tabindex="60"></textarea><br />
+        <textarea name="Requirements" cols="50" rows="8" placeholder="What pages would you like? (e.g. About Page/ Blog Page/ Gallary Page)" tabindex="60"></textarea><br />
         <label> What features do you need?</label><br />
-        <textarea name="Requirements" cols="40" rows="8" placeholder="What features would you like? (e.g. Chat feature/Search Bar/Contact Form)" tabindex="60"></textarea><br />
+        <textarea name="Requirements" cols="50" rows="8" placeholder="What features would you like? (e.g. Chat feature/Search Bar/Contact Form)" tabindex="60"></textarea><br />
 </div>
 <h3 class = "headers">Design</h3>
 <div>
 <label for="">Do you have brand specifications?</label><br />
-    <textarea name="brand"cols="30" rows="10" placeholder="(e.g. Logo, colors, fonts"></textarea> <br />
+    <textarea name="brand"cols="50" rows="10" placeholder="(e.g. Logo, colors, fonts"></textarea> <br />
 
     <label for="">List 5 other websites that you like</label><br />
-    <textarea name="Competitors"cols="30" rows="10" placeholder="Please list five websites with a brief explanation as to why they appeal to you."></textarea><br />
+    <textarea name="Competitors"cols="50" rows="10" placeholder="Please list five websites with a brief explanation as to why they appeal to you."></textarea><br />
 
     <label for="">Do you have content complete?</label><br />
-    <textarea name="content"cols="30" rows="5" placeholder="(e.g. Text for each page, images"></textarea>
+    <textarea name="content"cols="50" rows="5" placeholder="(e.g. Text for each page, images"></textarea>
 
 </div>
-
+<br />
 <div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div>
 <div>
     <input type="submit" value="submit" />
