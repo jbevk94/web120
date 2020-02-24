@@ -1,0 +1,65 @@
+.headers{
+  font-family: "Lucida Sans Unicode","Lucida Grande";
+  font-size: 22px;
+}
+
+/* start reCAPTCHA styles */
+/* Add media queries for phone and tablet devices*/
+@media all and (min-width: 501px) {
+  div.wrapper form {
+    margin-left: 22.8px;
+  }
+  form > div {
+    margin: 1em;
+  }
+
+  /* writes to small text above reCAPTCHA upon failure */
+
+
+
+  .dateFeedback {
+    font-style: italic;
+    font-size: 70%;
+    font-weight: bold;
+    color: #444;
+  }
+
+  aside {
+    overflow: hidden;
+    display: block;
+    padding: 10px;
+    width: 40%;
+    float: right;
+  }
+
+  section {
+    width: 40%;
+  }
+}
+
+/* TABLET */
+@media all and (min-width: 737px) and (max-width: 1399px) {
+  section {
+    width: 60%;
+  }
+
+  /* aside {
+    width: 39%;
+    float: right;
+  } */
+}
+
+/* PHONE */
+@media (max-width: 700px) {
+  section,
+  aside {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cycle {
+    padding-left: 300px;
+  }
+}
+
+/* end reCAPTCHA styles */
