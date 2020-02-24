@@ -24,16 +24,16 @@
     <ul>
   
     <li><a class="selected" href="../../web120/index.php"><span><i class="fa fa-fw fa-home"></i>Welcome</a></li>
-<!-- <li><a href="big/index.php">Big</a></li> -->
+<li><a href="fp/history.php">Big</a></li>
 
-<li><a href="flexbox.php"><span><i class="fa fa-fw fa-cube"></i> Flexbox</span></a></li>
+<li><a href="fp/employment.php"><span><i class="fa fa-fw fa-cube"></i> Employment</span></a></li>
 
-<li><a href="galleries.php"><span><i class="fa fa-fw fa-camera-retro"></i> Galleries</span></a></li>
+<li><a href="fp/locations.php"><span><i class="fa fa-fw fa-camera-retro"></i> Locations</span></a></li>
 <!-- <li><a href="aia.php">AIA</a><i class="fas fa-users"></i></li> -->
 
-<li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i> Google</span></a>
+<li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i> Catering</span></a>
         <ul>
-           <li><a href="calendar.php"><span><i class="fa fa-fw fa-calendar"></i> Calendar</span></a></li>
+           <li><a href="online.php"><span><i class="fa fa-fw fa-calendar"></i> Online Order</span></a></li>
            <li><a href="map.php"><span><i class="fa fa-fw fa-map-o"></i> Map</span></a></li>
            <li><a href="youtube.php"><span><i class="fa fa-fw fa-youtube-square"></i> YouTube</span></a></li>
         </ul>
