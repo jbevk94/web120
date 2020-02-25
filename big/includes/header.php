@@ -43,10 +43,7 @@
      <li><a href="siteapp.php"><span><i class="fa fa-fw fa-html5"></i> Site vs App</span></a></li>
      
      <li><a href="webcam.php"><span><i class="fas fa-camera-retro"></i> Webcam</span></a></li>
-     
-<!-- <li><a href="flowchart.php">Flowchart</a></li> -->
-<!-- <li><a href="fp/index.php"><span><i class="fas fa-laptop-code"></i>Final Project</span></a></li> -->
-<!-- <li><a href="contactme.php"><span><i class="fas fa-address-book"></i>Contact Beverly</span></a></li> -->
+
       
     </ul>
   </nav>

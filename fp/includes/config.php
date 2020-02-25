@@ -21,87 +21,44 @@ define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 switch(THIS_PAGE){
 
     case 'index.php':
-        $title = "Web Dev Examples by Beverly James";
+        $title = "Piroshky";
         $logo = 'fa-home';
-        $PageID = 'Client Questionare';
+        // $PageID = 'Client Questionare';
     break;
     
-    case 'aia.php':
-        $title = "Beverly's Final Project Audience, Issues and Approach Research";
+    case 'history.php':
+        $title = "History of Piroshky";
         $logo = "fa-universal-access";
         $logo_color = ' style="color:#97D6E7;"';
         break;
 
-    case 'flowchart.php':
-         $title = "Beverly's Flowchart Page";
+    case 'employment.php':
+         $title = "Join the team!";
          $logo = 'fa-pencil-square-o';
          $logo_color = ' style="color:#97D6E7;"';
-         $PageID = 'Flowchart';
+         $PageID = 'Join the team!';
         break;
 //change icon
-        case 'flexbox.php':
-            $title = "Flexbox Research";
+        case 'locations.php':
+            $title = "Locations";
             $logo = 'fa-pencil-square-o';
             $logo_color = ' style="color:#97D6E7;"';
-            $PageID = 'Flexbox Research';
+            // $PageID = 'Flexbox Research';
            break;
 //change icon
-           case 'galleries.php':
-            $title = "Galleries Research";
+           case 'catering.php':
+            $title = "Order Online";
             $logo = 'fa-pencil-square-o';
             $logo_color = ' style="color:#97D6E7;"';
-            $PageID = 'Galleries Research';
+            $PageID = 'Order Online';
            break;
 //change icons
-           case 'shoppingcarts.php':
-            $title = "Shopping Cart Research";
+           case 'menu.php':
+            $title = "Piroshky Menu";
             $logo = 'fa-pencil-square-o';
             $logo_color = ' style="color:#97D6E7;"';
-            $PageID = 'Shopping Cart Research';
+            // $PageID = 'Shopping Cart Research';
            break;
-//change icons
-case 'siteapp.php':
-    $title = "Mobile vs App Research";
-    $logo = 'fa-pencil-square-o';
-    $logo_color = ' style="color:#97D6E7;"';
-    $PageID = 'Mobile vs App Research';
-   break;
- //change icons       
-    case 'contactme.php':
-        $title = "Beverly's WEB120 Contact Page";
-        $logo = 'fa-pencil-square-o';
-        $logo_color = ' style="color:#97D6E7;"';
-        $PageID = 'Contact Beverly';
-    break;
-    //change icons       
-    case 'calendar.php':
-        $title = "Google Calendar";
-        $logo = 'fa-pencil-square-o';
-        $logo_color = ' style="color:#97D6E7;"';
-        $PageID = 'Calendar';
-    break;
-    //change icons       
-    case 'youtube.php':
-        $title = "Youtube";
-        $logo = 'fa-pencil-square-o';
-        $logo_color = ' style="color:#97D6E7;"';
-        $PageID = 'Youtube';
-    break;
-    //change icons       
-    case 'map.php':
-        $title = "Google Map";
-        $logo = 'fa-pencil-square-o';
-        $logo_color = ' style="color:#97D6E7;"';
-        $PageID = 'Google Map';
-    break;
-    //change icons       
-    case 'webcam.php':
-        $title = "Galleries and Sliders";
-        $logo = 'fa-pencil-square-o';
-        $logo_color = ' style="color:#97D6E7;"';
-        $PageID = 'Galleries and Sliders';
-    break;
-
     default:
         $title = THIS_PAGE;
         $logo = 'fa-home';

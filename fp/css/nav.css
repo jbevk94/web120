@@ -9,26 +9,26 @@
   padding: 0;
   border: 0;
   list-style: none;
-  font-weight: normal;
   text-decoration: none;
   line-height: 1;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   position: relative;
+  font-weight: bold;
 }
 #cssmenu a {
   line-height: 1.5;
 }
 #cssmenu {
   width: auto;
-  background: #fff;
+  background: rgb(243, 19, 19);
 }
 #cssmenu > ul {
   border: 1px solid #000;
-  -moz-box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: inset 1px 1px 0 rgb(255, 238, 6);
   -webkit-box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.2);
   box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.2);
-  background: #565656;
+  background: rgb(243, 19, 19);
   background: -moz-linear-gradient(#565656 0%, #323232 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #565656), color-stop(100%, #323232));
   background: -webkit-linear-gradient(#565656 0%, #323232 100%);
@@ -64,7 +64,7 @@
   display: none;
 }
 #cssmenu > ul > li.active {
-  background: #444444;
+  background: rgb(243, 19, 19);
   background: -moz-linear-gradient(#444444 0%, #323232 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #444444), color-stop(100%, #323232));
   background: -webkit-linear-gradient(#444444 0%, #323232 100%);
@@ -110,7 +110,7 @@
   margin: 0 0 2px 0;
   font-size: 12px;
   display: block;
-  color: #fff;
+  color: rgb(248, 252, 6);
   text-shadow: 0 1px 1px #000;
 }
 #cssmenu > ul > li > a > span {
@@ -125,12 +125,12 @@
   border-bottom: none;
 }
 #cssmenu > ul > li.active > a {
-  color: #fff;
+  color: rgb(240, 22, 22);
   text-shadow: 0 1px 1px #000;
 }
 /* Sub menu */
 #cssmenu ul ul {
-  background: #F9F9F9;
+  background: rgb(231, 231, 226);
   border: 1px solid #CCC;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -157,11 +157,11 @@
   padding: 3px 0;
 }
 #cssmenu ul ul a {
-  color: #999;
+  color: rgb(243, 19, 19);
   display: block;
   font-size: 12px;
   font-weight: bold;
 }
 #cssmenu ul ul a:hover {
-  color: #444;
+  color: rgb(0, 0, 0);
 }

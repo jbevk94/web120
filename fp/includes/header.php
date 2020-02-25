@@ -19,35 +19,22 @@
 <!-- START WRAPPER -->
 <main class="wrapper">
 <header>
-  <h1><i class="logo fa <?=$logo?> ">Beverly James <a href="index.php"></i> Web Dev Examples</a></h1>
+  <h1><i class="logo fa <?=$logo?> "> <a href="index.php"></i> Piroshky Piroshky</a></h1>
   <nav id='cssmenu'>
     <ul>
-  
-    <li><a class="selected" href="../../web120/index.php"><span><i class="fa fa-fw fa-home"></i>Welcome</a></li>
-<li><a href="fp/history.php">Big</a></li>
-
-<li><a href="fp/employment.php"><span><i class="fa fa-fw fa-cube"></i> Employment</span></a></li>
-
-<li><a href="fp/locations.php"><span><i class="fa fa-fw fa-camera-retro"></i> Locations</span></a></li>
-<!-- <li><a href="aia.php">AIA</a><i class="fas fa-users"></i></li> -->
-
-<li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i> Catering</span></a>
+      <li><a class="selected" href="index.php"><span>Home</a></li>
+      <li><a href="history.php"><span>History</span></a></li>
+      <li><a href="menu.php"><span>Menu</span></a></li>
+      <li><a href="#"><span>Locations</span></a>
         <ul>
-           <li><a href="online.php"><span><i class="fa fa-fw fa-calendar"></i> Online Order</span></a></li>
-           <li><a href="map.php"><span><i class="fa fa-fw fa-map-o"></i> Map</span></a></li>
-           <li><a href="youtube.php"><span><i class="fa fa-fw fa-youtube-square"></i> YouTube</span></a></li>
+           <li><a href="pp.php"><span> Pike Place</span></a></li>
+           <li><a href="cs.php"><span>Century Square</span></a></li>
+           <li><a href="ct.php"><span> Columbia Tower</span></a></li>
+           <li><a href="sp.php"><span> South Park</span></a></li>
         </ul>
      </li>
-     <li><a href="shoppingcarts.php"><span><i class="fa fa-fw fa-shopping-basket"></i> Shopping Carts</span></a></li>
-     
-     <li><a href="siteapp.php"><span><i class="fa fa-fw fa-html5"></i> Site vs App</span></a></li>
-     
-     <li><a href="webcam.php"><span><i class="fas fa-camera-retro"></i> Webcam</span></a></li>
-     
-<!-- <li><a href="flowchart.php">Flowchart</a></li> -->
-<!-- <li><a href="fp/index.php"><span><i class="fas fa-laptop-code"></i>Final Project</span></a></li> -->
-<!-- <li><a href="contactme.php"><span><i class="fas fa-address-book"></i>Contact Beverly</span></a></li> -->
-      
+     <li><a href="catering.php"><span> Catering</span></a></li>
+     <li><a href="employment.php"><span> Employment</span></a></li>
     </ul>
   </nav>
 </header>
