@@ -3,14 +3,61 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
-  background-color: #fffb23;
+  background-color: #f3db94;
   color: #ffffff;
 }
 
+/* Desktops and laptops ----------- */
+@media all and (min-width: 1280px) {
+  /* CSS rules */
+
+  .team{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width:90%;
+  }
+
+  .home{
+    display: flex;
+    justify-content: center;
+  }
+   
+  .home1 {
+    justify-content: flex-start;
+  }
+
+  .home2{
+    justify-content: center;
+  }
+
+  .home3{
+    justify-content: flex-end;
+  }
+/* 
+  .home1
+  .home2,
+  .home3{
+    width:30%;
+  } */
+
+  .row{
+    
+    display: flex;
+  }
+
+
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
 
 div.wrapper,
 footer {
@@ -35,7 +82,7 @@ aside {
 header h1 {
   text-align: right;
 }
-
+}
 h1,
 h2,
 h3,
@@ -84,7 +131,6 @@ footer {
   text-transform: uppercase;
   clear: both;
   background-color: #aaddd6;
-
 }
 
 footer p {
@@ -101,23 +147,6 @@ footer a:hover {
   background-color: black;
 }
 
-/* Phat PHONE Rules! */
-@media all and (max-width: 860px) {
-  div.wrapper {
-    background-color: blue;
-  }
-
-  /* Show Agenda View Calendar */
-  div.embed-container.agenda-view {
-    display: block;
-  }
-
-  /* Hide Month View Calendar */
-  div.embed-container.month-view {
-    display: none;
-  }
-}
-
 /* TABLET */
 @media all and (min-width: 737px) and (max-width: 1399px) {
   section {
@@ -130,15 +159,6 @@ footer a:hover {
     float: right;
   }
 
-  img.tablet {
-    width: 100%;
-    display: inline-block;
-  }
-
-  img.desktop,
-  img.phone {
-    display: none;
-  }
 }
 
 /* PHONE */
@@ -152,10 +172,9 @@ footer a:hover {
     width: 100%;
   }
 
-
-#frame{
-  height:'900'; 
-  width:'300' ;
-  border:none;
- 
- } }
+  #frame {
+    height: "900";
+    width: "300";
+    border: none;
+  }
+}

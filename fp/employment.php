@@ -8,6 +8,8 @@
 
 </section>
 <!-- End left col -->
+<!-- Change Image -->
+<img src="images/assorted_piroshkies.jpg" alt="assorted piroshkies" style="width:20%">
 
 <!-- Start right col -->
 <aside>
