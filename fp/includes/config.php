@@ -22,46 +22,35 @@ switch(THIS_PAGE){
 
     case 'index.php':
         $title = "Piroshky";
-        $logo = 'fa-home';
-        // $PageID = 'Client Questionare';
+        $PageID = 'Home';
     break;
     
     case 'history.php':
-        $title = "History of Piroshky";
-        $logo = "fa-universal-access";
-        $logo_color = ' style="color:#97D6E7;"';
+        $title = "History of Piroshky";     
+        $PageID = 'History of Piroshky';
         break;
 
     case 'employment.php':
          $title = "Join the team!";
-         $logo = 'fa-pencil-square-o';
-         $logo_color = ' style="color:#97D6E7;"';
          $PageID = 'Join the team!';
         break;
 //change icon
         case 'locations.php':
             $title = "Locations";
-            $logo = 'fa-pencil-square-o';
-            $logo_color = ' style="color:#97D6E7;"';
-            // $PageID = 'Flexbox Research';
+            $PageID = 'Come visit us';
            break;
 //change icon
            case 'catering.php':
             $title = "Order Online";
-            $logo = 'fa-pencil-square-o';
-            $logo_color = ' style="color:#97D6E7;"';
             $PageID = 'Order Online';
            break;
 //change icons
            case 'menu.php':
             $title = "Piroshky Menu";
-            $logo = 'fa-pencil-square-o';
-            $logo_color = ' style="color:#97D6E7;"';
-            // $PageID = 'Shopping Cart Research';
+            $PageID = 'Menu';
            break;
     default:
         $title = THIS_PAGE;
-        $logo = 'fa-home';
         $PageID = 'Welcome';
    }
 

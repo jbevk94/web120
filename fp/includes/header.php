@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/nav.css" />
 <link rel="stylesheet" href="css/fp.css" />
-<link rel="stylesheet" href="css/form.css" />
+<!-- <link rel="stylesheet" href="css/form.css" /> -->
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
 <script src="js/script.js"></script>
@@ -19,7 +19,7 @@
 <!-- START WRAPPER -->
 <main class="wrapper">
 <header>
-<h1><a href="index.php"><img src="images/logo.svg" alt="logo"></i></a></h1>
+<h1><a href="index.php"><img src="images/pp-logo.PNG" alt="logo"></i></a></h1>
   <nav id='cssmenu'>
     <ul>
       <li><a class="selected" href="index.php"><span>Home</a></li>

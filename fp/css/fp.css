@@ -16,136 +16,138 @@ body {
 @media all and (min-width: 1280px) {
   /* CSS rules */
 
-  .team{
+  /* home page */
+  .team {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
   }
-
-  .home{
+.row {
+    display: flex;
+  }
+  .home {
     display: flex;
     justify-content: center;
   }
-   
+
   .home1 {
     justify-content: flex-start;
   }
 
-  .home2{
+  .home2 {
     justify-content: center;
   }
 
-  .home3{
+  .home3 {
     justify-content: flex-end;
   }
-/* 
-  .home1
-  .home2,
-  .home3{
-    width:30%;
-  } */
 
-  .row{
-    
-    display: flex;
+  .home1 .home2,
+  .home3 {
+    width: 30%;
+    height: auto;
+    overflow: hidden;
   }
 
+  
+/* end home page */
+/* location pages */
 
+  map{
+    width:100%;
+    height:auto;
 
-  .column {
+  }
+
+  div.wrapper,
+  footer {
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    overflow: auto;
+  }
+
+  section {
     float: left;
-    width: 33.33%;
-    padding: 5px;
+    width: 64%;
+    padding-left: 2.5%;
   }
 
-div.wrapper,
-footer {
-  width: 90%;
-  margin: auto;
-  background-color: #fff;
-  overflow: auto;
-}
+  aside {
+    float: right;
+    width: 26%;
+    padding-right: 2.5%;
+  }
 
-section {
-  float: left;
-  width: 64%;
-  padding-left: 2.5%;
-}
+  header h1 {
+    text-align: right;
+  }
 
-aside {
-  float: right;
-  width: 26%;
-  padding-right: 2.5%;
-}
+  footer {
+    color: rgb(100, 100, 100);
+    text-align: center;
+    text-transform: uppercase;
+    clear: both;
+    background-color: #aaddd6;
+  }
 
-header h1 {
-  text-align: right;
-}
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: normal;
-  padding: 0.5em;
-}
+  footer p {
+    padding: 2em;
+  }
 
-p {
-  margin: 1em 0.8em;
-}
+  footer a {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+  }
 
-div.dot iframe {
-  border: 0;
-  overflow: no;
-}
+  footer a:hover {
+    color: #626464;
+    background-color: black;
+  }
 
-/* START Global Embed Responsively Rules! */
-div.embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: normal;
+    padding: 0.5em;
+  }
 
-div.embed-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+  p {
+    margin: 1em 0.8em;
+  }
 
-div.embed-container.agenda-view {
-  display: none;
-}
+  div.dot iframe {
+    border: 0;
+    overflow: no;
+  }
 
+  /* START Global Embed Responsively Rules! */
+  div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  div.embed-container.agenda-view {
+    display: none;
+  }
+}
 /* END Global Embed Responsively Rules! */
-
-footer {
-  color: rgb(100, 100, 100);
-  text-align: center;
-  text-transform: uppercase;
-  clear: both;
-  background-color: #aaddd6;
-}
-
-footer p {
-  padding: 2em;
-}
-
-footer a {
-  color: rgb(100, 100, 100);
-  text-decoration: none;
-}
-
-footer a:hover {
-  color: #626464;
-  background-color: black;
-}
 
 /* TABLET */
 @media all and (min-width: 737px) and (max-width: 1399px) {
@@ -158,7 +160,6 @@ footer a:hover {
     width: 39%;
     float: right;
   }
-
 }
 
 /* PHONE */
