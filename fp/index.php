@@ -1,6 +1,4 @@
 <?php include "includes/header.php"?>
-<!-- Massive Image of piroshky
-Smaller pics underneath -->
 </section>
 <img src="images/team.jpg" class="team" alt="Picture of the team." />
 

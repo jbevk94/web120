@@ -8,8 +8,7 @@ Hours -->
 
 
 <iframe class="map" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=701%205th%20Ave%2C%20Seattle%2C%20WA%2098104+(piroshky)&amp;ie=UTF8&amp;t=&amp;z=22&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br />
-<p>Piroshky Piroshky <br />
-
+<p>
 Columbia Center<br />
 701 5th Avenue<br />
 Seattle, WA 98104</p>

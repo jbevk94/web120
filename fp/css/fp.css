@@ -55,8 +55,8 @@ body {
 /* end home page */
 /* location pages */
 
-  map{
-    width:100%;
+  .map{
+    width:500%;
     height:auto;
 
   }

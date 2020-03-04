@@ -5,23 +5,25 @@ Image
 Description
 Map
 Hours -->
-<div style="width: 100%"><iframe width="100%" height="400" src="https://maps.google.com/maps?width=100%&amp;height=400&amp;hl=en&amp;q=309%20S%20Cloverdale%20St%20C32+(piroshky)&amp;ie=UTF8&amp;t=&amp;z=22&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/coordinates.html">gps coordinates</a></iframe></div><br />
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, nobis, voluptatem debitis provident repellat quo fuga illum nostrum harum officia cupiditate iste commodi eius deleniti vero aut officiis assumenda impedit!Nulla delectus maxime vitae quia cupiditate soluta debitis corporis sit mollitia eaque voluptate ex perferendis, rem culpa? Suscipit rem vero dicta quam omnis, fuga animi blanditiis dolorem, ex, minus iure.</p>
+<div><iframe src="https://maps.google.com/maps?width=100%&amp;height=400&amp;hl=en&amp;q=309%20S%20Cloverdale%20St%20C32+(piroshky)&amp;ie=UTF8&amp;t=&amp;z=22&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><br />
+    <p>For questions about orders, shipping, wholesale, or catering, please contact our office:</p>
+    <p>
+Piroshky Baking Company<br />
+309 S Cloverdale Street, C32<br />
+Seattle, WA 98108<br />
+206-764-1000</p>
+</section>
+<!-- insert form and center -->
+<form action="">
 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, nobis, voluptatem debitis provident repellat quo fuga illum nostrum harum officia cupiditate iste commodi eius deleniti vero aut officiis assumenda impedit!Nulla delectus maxime vitae quia cupiditate soluta debitis corporis sit mollitia eaque voluptate ex perferendis, rem culpa? Suscipit rem vero dicta quam omnis, fuga animi blanditiis dolorem, ex, minus iure.</p>
+</form>
 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, nobis, voluptatem debitis provident repellat quo fuga illum nostrum harum officia cupiditate iste commodi eius deleniti vero aut officiis assumenda impedit!Nulla delectus maxime vitae quia cupiditate soluta debitis corporis sit mollitia eaque voluptate ex perferendis, rem culpa? Suscipit rem vero dicta quam omnis, fuga animi blanditiis dolorem, ex, minus iure.</p>
 
 </section>
 <!-- End left col -->
 
 <!-- Social Media -->
 
-<!-- Start right col -->
-<aside>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, nobis, voluptatem debitis provident repellat quo fuga illum nostrum harum officia cupiditate iste commodi eius deleniti vero aut officiis assumenda impedit!Nulla delectus maxime vitae quia cupiditate soluta debitis corporis sit mollitia eaque voluptate ex perferendis, rem culpa? Suscipit rem vero dicta quam omnis, fuga animi blanditiis dolorem, ex, minus iure.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, nobis, voluptatem debitis provident repellat quo fuga illum nostrum harum officia cupiditate iste commodi eius deleniti vero aut officiis assumenda impedit!Nulla delectus maxime vitae quia cupiditate soluta debitis corporis sit mollitia eaque voluptate ex perferendis, rem culpa? Suscipit rem vero dicta quam omnis, fuga animi blanditiis dolorem, ex, minus iure.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, nobis, voluptatem debitis provident repellat quo fuga illum nostrum harum officia cupiditate iste commodi eius deleniti vero aut officiis assumenda impedit!Nulla delectus maxime vitae quia cupiditate soluta debitis corporis sit mollitia eaque voluptate ex perferendis, rem culpa? Suscipit rem vero dicta quam omnis, fuga animi blanditiis dolorem, ex, minus iure.</p>
-</aside>
+
 
 <?php include "includes/footer.php"?>
