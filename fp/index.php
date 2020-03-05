@@ -1,7 +1,7 @@
 <?php include "includes/header.php"?>
-</section>
-<img src="images/team.jpg" class="team" alt="Picture of the team." />
 
+<img src="images/team.jpg" class="team" alt="Picture of the team." />
+</section>
 
 
 <div class="home">

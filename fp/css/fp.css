@@ -125,7 +125,9 @@ body {
     border: 0;
     overflow: no;
   }
-
+  .pageID {
+    text-align: start;
+  }
   /* START Global Embed Responsively Rules! */
   div.embed-container {
     position: relative;
