@@ -25,17 +25,29 @@ switch(THIS_PAGE){
         $PageID = 'Home';
     break;
     
-    case 'history.php':
-        $title = "History of Piroshky";     
-        $PageID = 'History of Piroshky';
-        break;
+    // case 'history.php':
+    //     $title = "History of Piroshky";     
+    //     $PageID = 'History of Piroshky';
+    //     break;
 
     case 'employment.php':
          $title = "Join the team!";
          $PageID = 'Join the team!';
         break;
 //change icon
-        case 'locations.php':
+        case 'ct.php':
+            $title = "Locations";
+            $PageID = 'Come visit us';
+           break;
+           case 'cs.php':
+            $title = "Locations";
+            $PageID = 'Come visit us';
+           break;
+           case 'sp.php':
+            $title = "Locations";
+            $PageID = 'Come visit us';
+           break;
+           case 'pp.php':
             $title = "Locations";
             $PageID = 'Come visit us';
            break;

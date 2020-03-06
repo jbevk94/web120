@@ -23,7 +23,6 @@
   <nav id='cssmenu'>
     <ul>
       <li><a class="selected" href="index.php"><span>Home</a></li>
-      <li><a href="history.php"><span>History</span></a></li>
       <li><a href="menu.php"><span>Menu</span></a></li>
       <li><a href="#"><span>Locations</span></a>
         <ul>

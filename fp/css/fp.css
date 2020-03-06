@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 html,
@@ -21,34 +22,16 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 50%;
     height: auto;
   }
-.row {
-    display: flex;
-  }
-  .home {
-    display: flex;
-    justify-content: center;
-  }
 
-  .home1 {
-    justify-content: flex-start;
-  }
-
-  .home2 {
-    justify-content: center;
-  }
-
-  .home3 {
-    justify-content: flex-end;
-  }
-
-  .home1 .home2,
-  .home3 {
-    width: 30%;
+  .history{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
-    overflow: hidden;
   }
 
   
@@ -56,9 +39,14 @@ body {
 /* location pages */
 
   .map{
-    width:500%;
+    width:400%;
     height:auto;
 
+  }
+
+  .hours{
+    list-style-type: none;
+    padding-left: 10px;
   }
 
   div.wrapper,

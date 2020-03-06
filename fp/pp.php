@@ -1,5 +1,5 @@
 <?php include "includes/header.php"?>
-
+</section>
 <!-- Pike Place
 Image
 Description
@@ -11,10 +11,10 @@ Hours -->
 Pike Place Market<br />
 1908 Pike Place<br />
 Seattle, WA 98101</p>
-</section>
+
 <aside>
 <h2>Pike Place Market Hours</h2>
-<ul style="list-style-type: none;">
+<ul class="hours">
     <li>Monday &nbsp 8AM - 7PM</li>
     <li>Tuesday &nbsp 8AM - 7PM</li>
     <li>Wednesday &nbsp 8AM - 7PM</li>
