@@ -6,14 +6,14 @@ Description
 Map
 Hours -->
 <div> <iframe src="https://maps.google.com/maps?width=100%&amp;height=400&amp;hl=en&amp;q=1501%204th%20Ave%20%23110%2C%20Seattle%2C%20WA%2098101+(piroshky)&amp;ie=UTF8&amp;t=&amp;z=22&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><br />
-    <p>
+    <p class="l-location">
 Century Square<br />
 1501 4th Avenue, Suite 110<br />
 Seattle, WA 98101</p>
 </section>
-<aside>
+<aside class="r-location">
 <h2>Columbia Center Hours</h2>
-<ul style="list-style-type: none;">
+<ul class="hours">
     <li>Monday &nbsp 7AM - 6:30PM</li>
     <li>Tuesday &nbsp 7AM - 6:30PM</li>
     <li>Wednesday &nbsp 7AM - 6:30PM</li>
