@@ -19,7 +19,7 @@
 <!-- START WRAPPER -->
 <main class="wrapper">
 <header>
-<h1><a href="index.php"><img src="images/pp-logo.PNG" alt="logo"></i></a></h1>
+<h1><a href="index.php"><img src="images/pp-logo.PNG" alt="logo" class="logo"></i></a></h1>
   <nav id='cssmenu'>
     <ul>
       <li><a class="selected" href="index.php"><span>Home</a></li>
