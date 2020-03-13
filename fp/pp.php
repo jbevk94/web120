@@ -7,12 +7,12 @@ Map
 Hours -->
 
 <div><iframe class="map" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=1908%20Pike%20Pl%2C%20Seattle%2C%20WA%2098101+(piroshky)&amp;ie=UTF8&amp;t=&amp;z=22&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><br />
-    <div>
+    <div class="address">
     <p>
 Pike Place Market<br />
 1908 Pike Place<br />
 Seattle, WA 98101</p>
-<div>
+<div class="openHours">
 <h2>Pike Place Market Hours</h2>
 <ul class="hours">
     <li>Monday &nbsp 8AM - 7PM</li>

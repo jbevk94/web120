@@ -10,13 +10,26 @@
 html,
 body {
   background-color: #f3db94;
-  color: #ffffff;
+  color: black;
+}
+
+p {
+  margin: 1em 0.8em;
 }
 
 /* Desktops and laptops ----------- */
 @media all and (min-width: 1280px) {
   /* CSS rules */
+  /* header starts */
+  .pageID {
+    text-align: start;
+    padding: 20px 5px 10px 5px;
+  }
 
+  .logo {
+    padding: 5px 5px 0px 5px;
+  }
+  /* header ends */
   /* home page */
   .team {
     display: block;
@@ -26,7 +39,7 @@ body {
     height: auto;
   }
 
-  .history{
+  .history {
     text-align: center;
     width: 50%;
     margin-left: auto;
@@ -34,28 +47,34 @@ body {
     height: auto;
   }
 
-  
-/* end home page */
-/* location pages */
+  /* end home page */
+  /* location page starts */
 
-  .map{
+  .map {
     width: 100%;
     height: 250px;
     padding-left: 50px;
     padding-right: 50px;
   }
 
-  .hours{
+  .hours {
     list-style-type: none;
-    padding-left: 10px;
+    padding-left: 30px;
   }
 
-  .location{
+  .location {
     padding-left: 50px;
     padding-right: 50px;
     font-size: larger;
   }
-/* menu pages */
+
+  .address {
+    float: left;
+    padding-left: 15px;
+  }
+  /* location page ends */
+
+  /* menu page starts */
   .grid-container {
     display: grid;
     grid-gap: 23px;
@@ -63,19 +82,34 @@ body {
     padding: 25px;
     float: left;
   }
-  
+
   .grid-item {
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 18px;
+    padding-top: 10px;
     font-size: 22px;
     text-align: center;
     font-weight: 200;
   }
-.grid-item img{
-  width: 400px;
-  height: auto;
-}
+  .grid-item img {
+    width: 400px;
+    height: auto;
+  }
+  /* menu page ends */
 
+  /* employment page starts */
+  .employ {
+    width: 45%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .form {
+    background-color: #f8e8e8;
+    color: black;
+    padding: 30px;
+  }
+
+  /* employment page ends */
   section {
     float: left;
     width: 64%;
@@ -91,7 +125,7 @@ body {
   header h1 {
     text-align: right;
   }
-/* footer start */
+  /* footer start */
   footer {
     color: rgb(100, 100, 100);
     text-align: center;
@@ -123,27 +157,6 @@ body {
 
   /* footer end */
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-weight: normal;
-    padding: 0.5em;
-  }
-
-  p {
-    margin: 1em 0.8em;
-  }
-
-  div.dot iframe {
-    border: 0;
-    overflow: no;
-  }
-  .pageID {
-    text-align: start;
-  }
   /* START Global Embed Responsively Rules! */
   div.embed-container {
     position: relative;
@@ -169,6 +182,11 @@ body {
 
 /* TABLET */
 @media all and (min-width: 737px) and (max-width: 1399px) {
+  /* header */
+
+  .pageID {
+    padding: 10px 0px 10px 5px;
+  }
   section {
     width: 60%;
     float: left;
@@ -178,10 +196,119 @@ body {
     width: 39%;
     float: right;
   }
+
+  /* index starts */
+  .team {
+    padding: 5px 0px 5px 90px;
+    width: 90%;
+  }
+
+  .history {
+    width: 90%;
+    padding: 5px 0px 5px 90px;
+  }
+
+  /* Index ends */
+
+  /* location page starts */
+
+  .map {
+    width: 100%;
+    height: 250px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .hours {
+    list-style-type: none;
+    padding-left: 30px;
+  }
+
+  .location {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: larger;
+  }
+
+  .address {
+    float: left;
+    padding-left: 15px;
+  }
+  /* location page ends */
+
+  footer {
+    padding-top: 20px;
+  }
 }
 
+/* Multiple and Catering */
+.cater{
+  padding: 24px;
+}
+.card {
+  float: left;
+  padding: 20px 10px;
+  margin-top: 45px;;
+}
+
+.card2{
+  border-width: 2px;
+  margin: 45px;
+  padding: 20px;
+}
+.card, .card2 {
+  display: grid;
+  font-size: 20px;
+  width: 25%;
+  border: red 2px solid;
+  margin-top: 20px;
+  background-color: #d93025;
+}
+
+.event{
+  width:10%;
+
+}
+
+.amt{
+  width:20%
+}
+
+.text{
+  padding: 20px;;
+}
+
+.catImg{
+  width: 65%;
+}
+
+.catInfo{
+  width: 65%;
+}
 /* PHONE */
 @media all and (max-width: 736px) {
+  /* header */
+  .logo {
+    float: right;
+    padding: 5px;
+  }
+  .pageID {
+    text-align: center;
+    padding: 5px;
+  }
+  /* header ends*/
+
+  /* index starts */
+  .team {
+    padding: 5px;
+  }
+
+  .history {
+    width: 100px;
+    padding: 5px;
+  }
+  /* Index ends */
+
   aside {
     width: 100%;
     display: inline-block;
@@ -195,5 +322,23 @@ body {
     height: "900";
     width: "300";
     border: none;
+  }
+
+  /* employment page starts */
+  .employ {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .form {
+    padding: 5px;
+    text-align: center;
+  }
+
+  /* employment page ends */
+
+  /* footer */
+  footer {
+    padding-top: 20px;
   }
 }

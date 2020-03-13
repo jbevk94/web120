@@ -4,11 +4,11 @@
 </section>
 <!-- End left col -->
 <!-- Change Image -->
-<img src="images/assorted_piroshkies.jpg" alt="assorted piroshkies" >
+<img src="images/ph.jfif" alt="assorted piroshkies" class="employ">
 
 <!-- Start right col -->
 <aside>
-<form action="">
+<form class="form">
 <label for="fullname">Full Name</label>
 <input type="text" name="fullname" placeholder="First and Last Name">
 <br>

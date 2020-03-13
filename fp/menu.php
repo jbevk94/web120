@@ -1,7 +1,8 @@
 <?php include "includes/header.php"?>
 </section>
 <br>
-<h2>Sweet Piroshky</h2>
+
+<h2 class="types">Sweet Piroshky</h2>
 <div class="grid-container">
   <div class="grid-item"><img src="images/appleRoll.jpg" alt="placeholder" >
   <h3>Apple Cinnamon Roll</h3>
@@ -25,16 +26,19 @@
 
   <div class="grid-item"><img src="images/vatrushka.jpg" alt="placeholder" ><h3>Cream Cheese Vatrushka</h3><p>A flat pastry topped with Sweet Cream cheese and your choice of Blueberries or Marrionberries (not available for shipping or travel pack pick up).</p></div>
 </div>
-
-<h2>Meat Piroshky</h2>
+<h2 class="types">Meat Piroshky</h2>
 <div class="grid-container">
 <div class="grid-item"><img src="images/vatrushka.jpg" alt="placeholder" ><h3>Pndlsfbdsfids</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum sapiente illum ad minus hic vel dicta obcaecati ducimus molestias quae nam dignissimos veniam aperiam, rerum quibusdam mollitia ratione est sequi.</p></div>
 <div class="grid-item"><img src="images/vatrushka.jpg" alt="placeholder" ><h3>Pndlsfbdsfids</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum sapiente illum ad minus hic vel dicta obcaecati ducimus molestias quae nam dignissimos veniam aperiam, rerum quibusdam mollitia ratione est sequi.</p></div>
 <div class="grid-item"><img src="images/vatrushka.jpg" alt="placeholder" ><h3>Pndlsfbdsfids</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum sapiente illum ad minus hic vel dicta obcaecati ducimus molestias quae nam dignissimos veniam aperiam, rerum quibusdam mollitia ratione est sequi.</p></div>
 <div class="grid-item"><img src="images/vatrushka.jpg" alt="placeholder" ><h3>Pndlsfbdsfids</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum sapiente illum ad minus hic vel dicta obcaecati ducimus molestias quae nam dignissimos veniam aperiam, rerum quibusdam mollitia ratione est sequi.</p></div>
 </div>
-  <h2>Vegetable Piroshky</h2>
+
+  
+<h2 class="types">Vegetable Piroshky</h2>
+
 <div class="grid-container">
+
   <div class="grid-item"><img src="images/ph.jfif" alt="placeholder" ><h3>Pndlsfbdsfids</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum sapiente illum ad minus hic vel dicta obcaecati ducimus molestias quae nam dignissimos veniam aperiam, rerum quibusdam mollitia ratione est sequi.</p></div>
   <div class="grid-item"><img src="images/ph.jfif" alt="placeholder" ><h3>Pndlsfbdsfids</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum sapiente illum ad minus hic vel dicta obcaecati ducimus molestias quae nam dignissimos veniam aperiam, rerum quibusdam mollitia ratione est sequi.</p></div>
   <div class="grid-item"><img src="images/ph.jfif" alt="placeholder" ><h3>Pndlsfbdsfids</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum sapiente illum ad minus hic vel dicta obcaecati ducimus molestias quae nam dignissimos veniam aperiam, rerum quibusdam mollitia ratione est sequi.</p></div>

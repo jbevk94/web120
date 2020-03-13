@@ -1,22 +1,4 @@
-<?php
-/**
- * multiple.php is a postback application designed to provide a 
- * contact form for users to email our clients.  
- * 
- * multiple.php provides a larger form with more elements to provide 
- * a richer example form.
- *
- * @package nmCAPTCHA2
- * @author Bill & Sara Newman <williamnewman@gmail.com>
- * @version 2 2019/10/13
- * @link http://www.newmanix.com/
- * @license http://www.apache.org/licenses/LICENSE-2.0
- * @see contact_include.php 
- * @todo none
- */
-
-#--------------END CONFIG AREA ------------------------#
-?>
+<?php?>
 
 <!-- START HTML FORM -->
 <form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">

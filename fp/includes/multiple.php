@@ -1,7 +1,7 @@
-<!-- <?php?> -->
+<?php?>
 
 <!-- START HTML FORM -->
-<!-- <form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post"> -->
+ <form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,13 +49,14 @@
     </label>
     </div>
   </div>
-<br>
+
   <div class="card2">
     <div class="container">
       <h4>Pickup</h4>
       <p>Pickup from one of our bakeries or office</p>
+      <br>
     <select class='pUp'>
-        <option value=""></option>
+        <option value="">Choose One</option>
         <option value="office">South Park Office</option>
         <option value="ct">Columbia Tower</option>
         <option value="pp">Pike Place</option>
@@ -74,8 +75,8 @@
     Additional Comments:<br /><textarea name="Comments" cols="44" rows="4" placeholder="Please be sure to let us know of any alergies or dietary restrictions and we'll do our best to accomodate you." tabindex="60"></textarea>
 </label>
 
-<!-- <div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div>
-<div> -->
+<div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div>
+<div>
     
 </div>
 <input type="submit" value="submit" />

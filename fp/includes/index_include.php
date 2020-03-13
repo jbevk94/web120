@@ -61,7 +61,7 @@ if(
     $secretKey == ''
 )      
 {//siteKeys not provided - exit
-    echo '<p>Please go into the contact_include.php file and place 
+    echo '<p>Please go into the index_include.php file and place 
     the <b>$siteKey</b> and <b>$secretKey</b> for the domain where your forms 
     will be posted.</p>';
     die;
