@@ -10,7 +10,6 @@
 <link rel="stylesheet" href="css/nav.css" />
 <link rel="stylesheet" href="css/fp.css" />
 <!-- <link rel="stylesheet" href="css/form.css" /> -->
-<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
 <script src="js/script.js"></script>
  

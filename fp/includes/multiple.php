@@ -1,17 +1,7 @@
 <?php?>
 
 <!-- START HTML FORM -->
- <form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/fp.css">
-</head>
-<body>
- 
+ <form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post" class="orderOnline">
 
 <div class="cater">
     <label>
@@ -45,7 +35,7 @@
       <h4>Delivery</h4>
       <p>Order delivery to your office or home!</p>
       <label class="text">
-        Enter Full Address:<br /><input type="address" name="Address"  placeholder="Address" tabindex="20" size="22" /><br /> 
+        Enter Full Address:<br><input type="address" name="Address"  placeholder="Address" tabindex="20" size="22" /><br /> 
     </label>
     </div>
   </div>
@@ -54,8 +44,7 @@
     <div class="container">
       <h4>Pickup</h4>
       <p>Pickup from one of our bakeries or office</p>
-      <br>
-    <select class='pUp'>
+    <select>
         <option value="">Choose One</option>
         <option value="office">South Park Office</option>
         <option value="ct">Columbia Tower</option>
@@ -67,13 +56,13 @@
 <br>
 <div class="amt">
 <label>
-    How many piroshky would you like?<br /><input type="text" name="Name" tabindex="10" size="44" autofocus /><br />
-</label>
+    How many piroshky would you like?
+    </label><br /><input type="text" name="Name" tabindex="10" size="44" autofocus /><br />
 </div>
-<span>Want smaller portions? We also make mini piroshky!</span>
+<span>Want smaller portions? We also make mini piroshky!</span> <br> <br>
 <label>
-    Additional Comments:<br /><textarea name="Comments" cols="44" rows="4" placeholder="Please be sure to let us know of any alergies or dietary restrictions and we'll do our best to accomodate you." tabindex="60"></textarea>
-</label>
+    Additional Comments:</label><br /><textarea name="Comments" cols="44" rows="4" placeholder="Please be sure to let us know of any alergies or dietary restrictions and we'll do our best to accomodate you." tabindex="60"></textarea>
+
 
 <div class="g-recaptcha" data-sitekey="<?=$siteKey;?>"></div>
 <div>
@@ -84,5 +73,3 @@
 </form>
 
    
-</body>
-</html>
