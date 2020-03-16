@@ -5,11 +5,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  letter-spacing: 1.5px;
 }
 
 html,
 body {
-  background-color: #f3db94;
+  background-color: #feffb6;
   color: black;
 }
 
@@ -20,6 +21,24 @@ p {
 /* Desktops and laptops ----------- */
 @media all and (min-width: 1280px) {
   /* CSS rules */
+
+  section {
+    float: left;
+    width: 64%;
+    padding: 40px 20px 35px 38px;
+  }
+
+  aside {
+    float: right;
+    width: 26%;
+    padding-right: 2.5%;
+  }
+
+  header h1 {
+    text-align: right;
+    background-color: #d93025;
+  }
+
   /* header starts */
   .pageID {
     text-align: start;
@@ -109,35 +128,101 @@ p {
     padding: 30px;
   }
 
+  .checkbox{
+    
+  }
   /* employment page ends */
-  section {
-    float: left;
-    width: 64%;
-    padding-left: 2.5%;
-  }
+ 
 
-  aside {
-    float: right;
-    width: 26%;
-    padding-right: 2.5%;
-  }
+/* Multiple and Catering Starts*/
+.orderOnline{
+  background-color: #f3db94;
+  width: 650px; 
+  margin-bottom: 100px;
+  border-radius: 25px;
+}
 
-  header h1 {
-    text-align: right;
-  }
+.left{
+  float: left;
+  padding: 30px;
+}
+.cater{
+  padding: 24px;
+}
+.card {
+  float: left;
+  padding: 20px 10px;
+  margin-top: 45px;;
+}
+
+.card2{
+  border-width: 2px;
+  margin: 45px;
+  padding: 20px;
+}
+.card, .card2 {
+  display: grid;
+  font-size: 20px;
+  width: 45%;
+  height: 250px;
+  border: white 2px solid;
+  margin: 20px;
+  
+}
+
+
+.event{
+  width:10%;
+
+}
+
+.amt{
+  width:40%;
+  padding-bottom: 40px;
+}
+
+.g-recaptcha{
+  padding: 30px 0px;
+}
+
+.text{
+  padding: 20px;;
+}
+
+.catImg{
+  width: 605px;
+  margin-left: 50px;
+  margin-top: 32px;
+}
+
+.catInfo{
+  width: 85%;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.cat-r{
+  width: 50%;
+}
+
+label{
+  padding:10px;
+}
+
+/* Multiple and Catering Ends */
+
   /* footer start */
   footer {
-    color: rgb(100, 100, 100);
+    color: rgb(0, 0, 0);
     text-align: center;
     text-transform: uppercase;
     clear: both;
-    padding-top: 20px;
-    background-color: #f3db94;
+    background-color: #d93025;
   }
 
   div.wrapper,
   footer {
-    width: 90%;
+    width: 100%;
     margin: auto;
     overflow: auto;
   }
@@ -241,50 +326,7 @@ p {
   }
 }
 
-/* Multiple and Catering */
-.cater{
-  padding: 24px;
-}
-.card {
-  float: left;
-  padding: 20px 10px;
-  margin-top: 45px;;
-}
 
-.card2{
-  border-width: 2px;
-  margin: 45px;
-  padding: 20px;
-}
-.card, .card2 {
-  display: grid;
-  font-size: 20px;
-  width: 25%;
-  border: red 2px solid;
-  margin-top: 20px;
-  background-color: #d93025;
-}
-
-.event{
-  width:10%;
-
-}
-
-.amt{
-  width:20%
-}
-
-.text{
-  padding: 20px;;
-}
-
-.catImg{
-  width: 65%;
-}
-
-.catInfo{
-  width: 65%;
-}
 /* PHONE */
 @media all and (max-width: 736px) {
   /* header */
