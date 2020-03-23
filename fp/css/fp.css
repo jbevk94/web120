@@ -5,7 +5,34 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  list-style-type: none;
   letter-spacing: 1.5px;
+}
+
+/* START Global Embed Responsively Rules! */
+
+div.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+div.embed-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+div.embed-container.agenda-view {
+  display: none;
+} 
+
+.wrapper{
+  width: 100%;
 }
 
 html,
@@ -15,16 +42,203 @@ body {
 }
 
 p {
+  font-size: 26px;
   margin: 1em 0.8em;
 }
+/* header starts */
+header h1 {
+  text-align: right;
+  background-color: rgba(255, 238, 6, 0.46);
+}
 
+.pageID {
+  text-align: start;
+  padding: 20px 5px 10px 5px;
+}
+
+.logo {
+  padding: 5px 5px 0px 5px;
+}
+/* header ends */
+
+/* footer start */
+footer {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-transform: uppercase;
+  clear: both;
+  background-color: rgba(255, 238, 6, 0.46);
+}
+
+div.wrapper,
+footer {
+  margin: auto;
+  overflow: auto;
+}
+footer p {
+  padding: 1em;
+  font-size: 16px;
+}
+
+footer a {
+  color: rgb(100, 100, 100);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #626464;
+  background-color: black;
+}
+
+/* footer ends */
+
+/* location page starts */
+.l-location {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.r-location {
+  float: right;
+  margin-right: 100px;
+}
+
+.location-info {
+  width: 75%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.map {
+  width: 100%;
+  height: 250px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.hours {
+  padding-left: 30px;
+}
+
+.address {
+  float: left;
+  padding-left: 15px;
+}
+/* location page ends */
 /* Desktops and laptops ----------- */
 @media all and (min-width: 1280px) {
-  /* CSS rules */
+  
+/* Multiple and Catering Starts*/
+.orderOnline {
+  background-color: rgba(255, 238, 6, 0.46);
+  width: 650px;
+  margin-bottom: 100px;
+  border-radius: 25px;
+}
+
+.left {
+  float: left;
+  padding: 30px;
+}
+.cater {
+  padding: 24px;
+}
+.card {
+  float: left;
+  padding: 20px 10px;
+  margin-top: 45px;
+}
+
+.card2 {
+  border-width: 2px;
+  margin: 45px;
+  padding: 20px;
+}
+.card,
+.card2 {
+  display: grid;
+  font-size: 20px;
+  width: 45%;
+  height: 300px;
+  border: white 2px solid;
+  margin: 20px;
+}
+
+.event {
+  width: 10%;
+}
+
+.amt {
+  width: 40%;
+  padding-bottom: 40px;
+}
+
+.g-recaptcha {
+  padding: 30px 0px;
+}
+
+.text {
+  padding: 20px;
+}
+
+.catImg {
+  width: 605px;
+  margin-left: 50px;
+  margin-top: 32px;
+}
+
+.catInfo {
+  width: 85%;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.cat-r {
+  width: 50%;
+}
+
+label {
+  padding: 10px;
+}
+
+/* Multiple and Catering Ends */
+
+/* Employment Page Starts */
+
+.employ {
+  width: 45%;
+  height: auto;
+  padding: 20px;
+}
+
+.form {
+  background-color: rgba(255, 238, 6, 0.46);
+  border: red 2px solid;
+  color: black;
+  float: right;
+  margin-right: 20px;
+  width: 600px;
+  padding: 25px;
+  border-radius: 20px;
+  margin-bottom: 70px;
+}
+
+.checkbox {
+}
+
+.time{
+  
+}
+
+/* Employment Page Ends */
+
 
   section {
     float: left;
-    width: 64%;
+    /* width: 64%; */
+    width: 100%;
     padding: 40px 20px 35px 38px;
   }
 
@@ -34,20 +248,6 @@ p {
     padding-right: 2.5%;
   }
 
-  header h1 {
-    text-align: right;
-    background-color: #d93025;
-  }
-
-  /* header starts */
-  .pageID {
-    text-align: start;
-    padding: 20px 5px 10px 5px;
-  }
-
-  .logo {
-    padding: 5px 5px 0px 5px;
-  }
   /* header ends */
   /* home page */
   .team {
@@ -67,31 +267,6 @@ p {
   }
 
   /* end home page */
-  /* location page starts */
-
-  .map {
-    width: 100%;
-    height: 250px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .hours {
-    list-style-type: none;
-    padding-left: 30px;
-  }
-
-  .location {
-    padding-left: 50px;
-    padding-right: 50px;
-    font-size: larger;
-  }
-
-  .address {
-    float: left;
-    padding-left: 15px;
-  }
-  /* location page ends */
 
   /* menu page starts */
   .grid-container {
@@ -110,158 +285,23 @@ p {
     font-weight: 200;
   }
   .grid-item img {
-    width: 400px;
+    width: 440px;
     height: auto;
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
+
+  .types {
+    font-size: 46px;
+    text-align: center;
   }
   /* menu page ends */
 
   /* employment page starts */
-  .employ {
-    width: 45%;
-    height: auto;
-    padding: 20px;
-  }
-
-  .form {
-    background-color: #f8e8e8;
-    color: black;
-    padding: 30px;
-  }
-
-  .checkbox{
-    
-  }
-  /* employment page ends */
- 
-
-/* Multiple and Catering Starts*/
-.orderOnline{
-  background-color: #f3db94;
-  width: 650px; 
-  margin-bottom: 100px;
-  border-radius: 25px;
-}
-
-.left{
-  float: left;
-  padding: 30px;
-}
-.cater{
-  padding: 24px;
-}
-.card {
-  float: left;
-  padding: 20px 10px;
-  margin-top: 45px;;
-}
-
-.card2{
-  border-width: 2px;
-  margin: 45px;
-  padding: 20px;
-}
-.card, .card2 {
-  display: grid;
-  font-size: 20px;
-  width: 45%;
-  height: 250px;
-  border: white 2px solid;
-  margin: 20px;
   
-}
+  /* employment page ends */
 
-
-.event{
-  width:10%;
-
-}
-
-.amt{
-  width:40%;
-  padding-bottom: 40px;
-}
-
-.g-recaptcha{
-  padding: 30px 0px;
-}
-
-.text{
-  padding: 20px;;
-}
-
-.catImg{
-  width: 605px;
-  margin-left: 50px;
-  margin-top: 32px;
-}
-
-.catInfo{
-  width: 85%;
-  text-align: center;
-  margin-left: 50px;
-}
-
-.cat-r{
-  width: 50%;
-}
-
-label{
-  padding:10px;
-}
-
-/* Multiple and Catering Ends */
-
-  /* footer start */
-  footer {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    text-transform: uppercase;
-    clear: both;
-    background-color: #d93025;
-  }
-
-  div.wrapper,
-  footer {
-    width: 100%;
-    margin: auto;
-    overflow: auto;
-  }
-  footer p {
-    padding: 2em;
-  }
-
-  footer a {
-    color: rgb(100, 100, 100);
-    text-decoration: none;
-  }
-
-  footer a:hover {
-    color: #626464;
-    background-color: black;
-  }
-
-  /* footer end */
-
-  /* START Global Embed Responsively Rules! */
-  div.embed-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-  }
-
-  div.embed-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-
-  div.embed-container.agenda-view {
-    display: none;
-  }
+  
 }
 /* END Global Embed Responsively Rules! */
 
@@ -272,7 +312,7 @@ label{
   .pageID {
     padding: 10px 0px 10px 5px;
   }
-  section {
+  /* section {
     width: 60%;
     float: left;
   }
@@ -280,7 +320,7 @@ label{
   aside {
     width: 39%;
     float: right;
-  }
+  } */
 
   /* index starts */
   .team {
@@ -296,7 +336,7 @@ label{
   /* Index ends */
 
   /* location page starts */
-
+/* 
   .map {
     width: 100%;
     height: 250px;
@@ -305,7 +345,6 @@ label{
   }
 
   .hours {
-    list-style-type: none;
     padding-left: 30px;
   }
 
@@ -318,14 +357,62 @@ label{
   .address {
     float: left;
     padding-left: 15px;
+  } */
+
+
+  .l-location {
+    display: inline-block;
+    margin-left: 100px;
   }
+  
+  .r-location {
+    float: right;
+    margin-right: 100px;
+  }
+  
+  .location-info {
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+  
+  .map {
+    width: 350%;
+    height: 450px;
+    padding-left: 250px;
+  }
+  
+  .hours {
+    padding-left: 30px;
+  }
+  
+  .address {
+    float: left;
+    padding-left: 15px;
+  }
+
+
+
+
+
+
   /* location page ends */
 
-  footer {
-    padding-top: 20px;
+  /* menu page starts */
+  .grid-item h3 {
+    padding: 20px;
   }
-}
 
+  .grid-item img {
+    border-radius: 45px;
+    margin-left: 55px;
+    width: 85%;
+    padding: 20px;
+  }
+  /* menu page ends */
+}
 
 /* PHONE */
 @media all and (max-width: 736px) {
@@ -335,7 +422,7 @@ label{
     padding: 5px;
   }
   .pageID {
-    text-align: center;
+    text-align: start;
     padding: 5px;
   }
   /* header ends*/
@@ -346,19 +433,22 @@ label{
   }
 
   .history {
-    width: 100px;
-    padding: 5px;
+    width: 1100px;
+    height: auto;
+    text-align: center;
+    padding-left: 80px;
   }
+
   /* Index ends */
 
-  aside {
+  /* aside {
     width: 100%;
     display: inline-block;
   }
 
   section {
     width: 100%;
-  }
+  } */
 
   #frame {
     height: "900";
@@ -367,20 +457,52 @@ label{
   }
 
   /* employment page starts */
-  .employ {
-    width: 90%;
-    padding: 10px;
-  }
+ .employ{
+   width: 400%;
+   padding: 10px;
+ }
 
   .form {
-    padding: 5px;
-    text-align: center;
+    padding: 25px;
+    width: 380%;
+    padding-bottom: 60px;
+   
   }
 
   /* employment page ends */
 
   /* footer */
   footer {
-    padding-top: 20px;
+    width: 400%;
   }
+
+  /* menu page starts */
+
+  .grid-item img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 40px;
+  }
+
+  .grid-item h3 {
+    text-align: center;
+  }
+
+  .grid-item p {
+    font-size: 20px;
+    text-align: center;
+  }
+  /* menu page ends */
+
+  /* location page starts */
+
+  .r-location,
+  .l-location {
+    text-align: center;
+  }
+
+  .map {
+    width: 100%;
+  }
+  /* location page ends */
 }
